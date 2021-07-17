@@ -1,0 +1,37 @@
+// A class is a function that contain data and behavior
+// Classes are blueprints of objects
+// Objects are instances of classes
+
+
+
+class Squirrel{
+  constructor(){
+    this.nutCount = 0
+  }
+
+  storeNut(){
+    this.nutCount += 1
+  }
+
+  eatNut(){
+    this.nutCount -= 1
+  }
+}
+// creating the instance of the class, saved as a variable
+// rocky now has access to the class methods
+var rocky = new Squirrel()
+
+console.log(rocky.nutCount)
+--> 0
+
+rocky.storeNut()
+console.log(rocky.nutCount)
+--> 1
+
+rocky.storeNut()
+console.log(rocky.nutCount)
+--> 2
+
+rocky.eatNut()
+console.log(rocky.nutCount)
+--> 1
