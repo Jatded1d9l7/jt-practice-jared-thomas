@@ -36,7 +36,7 @@
 // 5. push to mult3
 //
 // var testArr1 = [3, 9, 15, 4, 10]
-// 
+//
 // const mult3 = (array) => {
 //   let newArray = []
 //   for (var i = 0; i < array.length; i++) {
@@ -53,3 +53,27 @@
 // 1. Create a function - onlyOdd
 // 2. Make a Parameter - array
 // 3. Make a 'for loop'
+
+// __________ This is my second pass at just practicing
+// Much of what follows is just a recap from above
+// Honestly, Don't have to do this again, just want the practice
+
+// Create a function that takes in an array and returns a new array with all numbers multiplied by 5
+
+// pseudo Code
+// input = function mult5
+// parameter = array
+// output = new array
+
+// var myArr1 = [10, 5, 7, 3, 10]
+// var myArr2 = [72, 93, 44, 20, 1]
+//
+// const mult5 = (array) => {
+//   let newArr = [] //empty array that will get pushed
+//   for(let i=0; i<array.length; i++){ // the length is 5 but the index is 4 this is why i<array.length
+//     newArr.push(array[i] * 5)
+//   }
+//   return newArr
+// }
+//
+// console.log(mult5(myArr2))
