@@ -1,0 +1,86 @@
+// example given in react introduction
+<!DOCTYPE html>
+<!-- <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Intro to React</title>
+
+  </head>
+  <body>
+
+    <div id="react-container"></div>  // 'div' is a container for HTML elements
+
+    <script type="text/babel">
+      class HelloReact extends React.Component{
+        render(){                     // render is a method
+          return(
+            <h1>Hello React!</h1>
+          )
+        }
+      }
+      const domContainer = document.querySelector('#react-container');
+      ReactDOM.render(<HelloReact />, domContainer);
+    </script>
+  </body>
+</html> -->
+
+// examples from react nested components on syllabus
+<!DOCTYPE html>
+<!-- <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Intro to React</title>
+
+  </head>
+  <body>
+
+    <div id="react-container"></div>
+
+    <script type="text/babel">
+      class App extends React.Component{
+        render(){              //render is a class method
+          return(
+            <></>
+          )
+        }
+      }
+      const domContainer = document.querySelector('#react-container');
+      ReactDOM.render(<App />, domContainer);
+    </script>
+  </body>
+</html> -->
+
+//Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML via a render() function. -->
+
+// examples from react nested components on syllabus continued
+
+<script type="text/babel"> //The HTML <script> type Attribute is used to specify the MIME type of script and identify the content of the Tag. Using JSX requires Babel, a transpiler which takes your JSX code and converts it into plain JavaScript so the browser understands it.
+  class App extends React.Component{ ////Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML via a render() function.
+    render(){
+      return(
+        <></>
+      )
+    }
+  }
+
+  class Content extends React.Component{
+    render(){
+      return(
+        <>
+          <h1>Title</h1>
+          <p>
+            This is app content.
+          </p>
+        </>
+      )
+    }
+  }
+  const domContainer = document.querySelector('#react-container')
+  ReactDOM.render(<App />, domContainer)
+</script>

@@ -34,17 +34,17 @@
 // 3. create the 'for loop'
 // 4. create the conditional
 // 5. push to mult3
-
-var testArr1 = [3, 9, 15, 4, 10]
-
-const mult3 = (array) => {
-  let newArray = []
-  for (var i = 0; i < array.length; i++) {
-    newArray.push(array[i] * 3)
-  }
-  return newArray
-}
-console.log(mult3(testArr1))
+//
+// var testArr1 = [3, 9, 15, 4, 10]
+// 
+// const mult3 = (array) => {
+//   let newArray = []
+//   for (var i = 0; i < array.length; i++) {
+//     newArray.push(array[i] * 3)
+//   }
+//   return newArray
+// }
+// console.log(mult3(testArr1))
 
 
 // Write a function that takes in an array and returns a new array with only odd numbers.
