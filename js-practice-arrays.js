@@ -15,7 +15,7 @@
 // .reverse() - reverses the order of the values in an array
 // .sort() - Alphabetizes the values in an array
 
-// Accessors
+// Accessors- does not change the array
 // .indexOf() - returns the index of the first instance of a given value
 // .lastIndexOf(value) - returns the last index of a given value
 // .slice(startingIndex, endingIndex) - returns a subset of the array
@@ -26,15 +26,20 @@
 // Challenges
 // Write the code that will add "soda" to the end of the original array.
 
-// var groceryList = ["chips", "dip", "cookies"]
+var groceryList = ["chips", "dip", "cookies"]
 //
+// 
 // console.log(groceryList.push("soda"))
 // console.log(groceryList)
 //
 // // Write the code that will add "granola" to the end of array without altering the original array.
-//
+
+var = updatedList = groceryList.push('Cookies')
+console.log(updatedList)
+
 // var addGranola = ["granola"]
 // console.log(groceryList.concat(addGranola))
+
 
 // Write the code that will return a subset of the array containing only "chips" and "dip".
 //
