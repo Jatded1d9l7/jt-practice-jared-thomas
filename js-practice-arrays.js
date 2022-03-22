@@ -89,7 +89,7 @@
 // console.log(numbersX)
 
 
-// Consider the variable:
+//                                      Consider the variable:
 
 // var numSet = [2, 13, 6, 8, 4, 2]
 
@@ -105,4 +105,33 @@
 
 // console.log(numSet[3])
 
+//                                       Consider the variable:
+var characters = ["j", "a", "r", "e", "d"]
+
+// 12. Write the code that brings all the letters in the characters array together into a string.
+
+// console.log(characters.join(""))
+
+// 13. Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+// This is significant because slice is essentially copying and pasting into a new variable.
+
+var charsReversed = characters.slice(0, 5)
+console.log(charsReversed.reverse())
+console.log(characters)
+
+// 14. Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+
+// console.log(charsReversed.join("*"))
+
+// 15. Write the code that brings all the letters in the charsReversed array together into a string without separators.
+
+// console.log(charsReversed.join(""))
+
+
+// 16. Write the code that sorts the names in alphabetical order.
+// console.log(characters.sort())
+
+// 17. Write the code that sorts the names in reverse alphabetical order.
+
+console.log(charsReversed.sort())
 
