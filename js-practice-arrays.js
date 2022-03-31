@@ -106,7 +106,7 @@
 // console.log(numSet[3])
 
 //                                       Consider the variable:
-var characters = ["j", "a", "r", "e", "d"]
+// var characters = ["j", "a", "r", "e", "d"]
 
 // 12. Write the code that brings all the letters in the characters array together into a string.
 
@@ -115,9 +115,9 @@ var characters = ["j", "a", "r", "e", "d"]
 // 13. Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
 // This is significant because slice is essentially copying and pasting into a new variable.
 
-var charsReversed = characters.slice(0, 5)
-console.log(charsReversed.reverse())
-console.log(characters)
+// var charsReversed = characters.slice(0, 5)
+// console.log(charsReversed.reverse())
+// console.log(characters)
 
 // 14. Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
 
@@ -133,5 +133,12 @@ console.log(characters)
 
 // 17. Write the code that sorts the names in reverse alphabetical order.
 
-console.log(charsReversed.sort())
+// var sortedArrayRev = charsReversed
 
+
+// can recall the syntax of an array
+
+// Mutator vs Accessor
+
+//Mutators modify the origonal array. 
+//Accessors return a new value or representation 
