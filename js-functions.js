@@ -131,23 +131,23 @@
 
 // 7. Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
-// const assignGrade = (number) =>{
-//     if (number >= 90){
-//         return `A score of ${number} earns you an "A"`
-//     }
-//     else if (number >= 80){
-//         return `A score of ${number} earns you an "B"`
-//     }
-//     else if (number >= 70){
-//         return `A score of ${number} earns you an "C"`
-//     }
-//     else if (number >= 60){
-//         return `A score of ${number} earns you an "D"`
-//     }
-//     else {
-//         return "You are either really smart or really stupid"
-//     }
-// }
+const assignGrade = (number) =>{
+    if (number >= 90){
+        return `A score of ${number} earns you an "A"`
+    }
+    else if (number >= 80){
+        return `A score of ${number} earns you an "B"`
+    }
+    else if (number >= 70){
+        return `A score of ${number} earns you an "C"`
+    }
+    else if (number >= 60){
+        return `A score of ${number} earns you an "D"`
+    }
+    else {
+        return "You are either really smart or really stupid"
+    }
+}
 
 // console.log(assignGrade(90))
 // console.log(assignGrade(80))
