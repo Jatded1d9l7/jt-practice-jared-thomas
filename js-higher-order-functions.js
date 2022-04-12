@@ -41,16 +41,16 @@
 // }
 // console.log(capitalizer(fruitArray))
 
-var numbersArray1 = [1, 2, 7, 4, 10, 8, 9]
+// var numbersArray1 = [1, 2, 7, 4, 10, 8, 9]
 
-const onlyEven = (array) => {
-  let newArr = []
-  for(let i=0; i<array.length; i++){
-    if(array[i] % 2 === 0){
-      newArr.push(array[i])
-    }
-  }
-  return newArr
-}
+// const onlyEven = (array) => {
+//   let newArr = []
+//   for(let i=0; i<array.length; i++){
+//     if(array[i] % 2 === 0){
+//       newArr.push(array[i])
+//     }
+//   }
+//   return newArr
+// }
 
-console.log(onlyEven(numbersArray1))
+// console.log(onlyEven(numbersArray1))
