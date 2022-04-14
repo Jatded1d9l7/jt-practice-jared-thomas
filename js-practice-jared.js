@@ -278,21 +278,46 @@
 // console.log(multiply(testArr1))
 
 // Write a function that takes in an array and returns a new array with only odd numbers.
-var testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
+// var testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
 
-const onlyOdd = (array) => {
-    let odds = []
-        for(let i = 0; i<array.length; i++){
-            if(array[i] % 2 != 0){
-                odds.push(array[i])
-            }
-        }
-        return odds
-    }
+// const onlyOdd = (array) => {
+//     let odds = []
+//         for(let i = 0; i<array.length; i++){
+//             if(array[i] % 2 != 0){
+//                 odds.push(array[i])
+//             }
+//         }
+//         return odds
+//     }
 
-    console.log(onlyOdd(testArr2))
+//     console.log(onlyOdd(testArr2))
 
 // write a function called onlyOdd
 // iterate through the array using for loop or .filture 
 // i % 2 != 0
+
+// Write a function that takes in an array and returns a new array with all numbers multiplied by 10.
+
+// var arr1 = [3, 9, 15, 4, 10]
+
+// create function
+// maps each value in array 
+// array number * 10 
+
+// const multiply = (array) => {
+//     return array.map(value => value * 10)
+// }
+// console.log(multiply(arr1))
+
+
+// // create a function that returns only the values at the odd indexes
+// var numbers = [4, 24, 5, 9, 0, 78]
+
+// const onlyOdds = (array) => {
+//   return array.filter((value, index) => {
+//     return index % 2 !== 0
+//   })
+// }
+// console.log(onlyOdds(numbers))
+
 
