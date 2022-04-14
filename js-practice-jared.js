@@ -320,4 +320,37 @@
 // }
 // console.log(onlyOdds(numbers))
 
+// var person = {
+//     name: "Alex Keaton",
+//     phone: 123456789,
+//     getData: function() {
+//       return `${this.name}'s phone number is ${this.phone}`
+//     }
+//   }
+  
+//   console.log(person.getData())
+//   --> "Alex Keaton's phone number is 123456789"
 
+// var person = {
+//     firstName: "Arthur",
+//     lastName: "Dent",
+//     homePlanet: "Earth"
+//   }
+
+//   var { firstName, lastName } = person
+
+//   console.log(person)
+
+
+// var person = {
+//     firstName: "Arthur",
+//     lastName: "Dent",
+//     homePlanet: "Earth",
+//     getData: function () {
+//         return `${this.firstName} ${this.lastName} is from ${this.homePlanet}`
+//     }
+//   }
+
+//   var { firstName, lastName } = person
+  
+//   console.log(person.getData())
